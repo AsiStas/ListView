@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         posts.add("Фиолетовый");
 
 
+
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, posts);
         listView.setAdapter(arrayAdapter);
 
